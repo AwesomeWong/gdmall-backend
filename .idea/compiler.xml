@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gdmall-cart-service" />
+        <module name="gdmall-common" />
+        <module name="gdmall-pay-service" />
+        <module name="gdmall-gateway" />
+        <module name="gdmall-trade-service" />
+        <module name="gdmall-item-service" />
+        <module name="gdmall-api" />
+        <module name="gdmall-user-service" />
+        <module name="gdmall-search-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hm-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gdmall-api" options="-parameters" />
+      <module name="gdmall-cart-service" options="-parameters" />
+      <module name="gdmall-common" options="-parameters" />
+      <module name="gdmall-gateway" options="-parameters" />
+      <module name="gdmall-item-service" options="-parameters" />
+      <module name="gdmall-pay-service" options="-parameters" />
+      <module name="gdmall-search-service" options="-parameters" />
+      <module name="gdmall-trade-service" options="-parameters" />
+      <module name="gdmall-user-service" options="-parameters" />
+      <module name="hm-service" options="-parameters" />
+    </option>
+  </component>
+</project>
