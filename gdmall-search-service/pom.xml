@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.heima</groupId>
+        <groupId>com.wong</groupId>
         <artifactId>gdmall-backend</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -21,7 +21,7 @@
 
         <!--common-->
         <dependency>
-            <groupId>com.heima</groupId>
+            <groupId>com.wong</groupId>
             <artifactId>gdmall-common</artifactId>
             <version>1.0.0</version>
         </dependency>
@@ -74,7 +74,7 @@
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.heima</groupId>
+            <groupId>com.wong</groupId>
             <artifactId>gdmall-api</artifactId>
             <version>1.0.0</version>
             <scope>compile</scope>
